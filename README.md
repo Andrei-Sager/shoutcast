@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# youtube_clone
+
+Create the application
+``` 
+npx create-react-app ./
+```
+
+Dependencies
+```
+npm install @mui/material @emotion/react @emotion/styled axios react-router-dom @mui/icons-material
+```
+
+```
+npm install --legacy-peer-dep
+```
