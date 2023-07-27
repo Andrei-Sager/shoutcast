@@ -79,7 +79,7 @@ npx create-react-app ./
 
 Dependencies
 ```
-npm install @mui/material @emotion/react @emotion/styled axios react-router-dom @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled axios react-router-dom @mui/icons-material @fontsource/roboto
 ```
 
 ```
