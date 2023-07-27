@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import { Box, Stack, Typography } from '@mui/material'
-import Sidebar from './Sidebar'
+import { Sidebar, Videos } from './'
 
 const HomeFeed = () => {
   return (
@@ -64,6 +64,8 @@ const HomeFeed = () => {
             videos
           </span>
         </Typography>
+
+        <Videos videos={[]} />
       </Box>
     </Stack>
   )
