@@ -1,17 +1,18 @@
+import React from "react";
 import { Stack } from "@mui/material"
 import { categories } from "../utils/constants"
 
 const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
     <Stack 
-        direction="row"
+        direction='row'
         sx={{
-            overflow: 'auto',
+            overflowY: 'auto',
             height: {
-                sx: 'auto',
+                sm: 'auto',
                 md: '95%',
-                flexDirection: { 
-                    md: 'column'
-                },
+            },
+            flexDirection: {
+                md:'column',
             }
         }}
     >
